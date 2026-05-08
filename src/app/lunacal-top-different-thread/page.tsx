@@ -18,13 +18,27 @@ Lunacal.ns["multiple-durationssss111"]("ui", {"theme":"dark","styles":{"branding
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-red-900">
-      <Partytown debug={false} forward={[]} />
+      <Partytown
+        debug={true}
+        forward={[]}
+        resolveUrl={function (url: URL, location: Location, type: string) {
+          if (type !== "iframe" && url.hostname !== location.hostname) {
+            return new URL(
+              location.origin +
+                "/api/partytown-proxy?url=" +
+                encodeURIComponent(url.href)
+            );
+          }
+          return url;
+        }}
+      />
       <div
         style={{ width: "100%", height: "100%", overflow: "scroll" }}
         id="my-lunacal-inline-multiple-durationssss111"
       ></div>
       <script
         type="text/partytown"
+        suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: lunacalInitScript }}
       />
 

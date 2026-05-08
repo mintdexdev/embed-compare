@@ -1,7 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async rewrites() {
+    return [
+      {
+        source: "/~lunacal-proxy/:path*",
+        destination: "https://app.lunacal.ai/:path*",
+      },
+    ];
+  },
 };
 
 export default nextConfig;

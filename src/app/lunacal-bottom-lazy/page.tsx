@@ -177,11 +177,10 @@ export default function Home() {
       </div>
 
       <div
-        loading="lazy"
         style={{ width: "100%", height: "100%", overflow: "scroll" }}
         id="my-lunacal-inline-multiple-durationssss111"
       ></div>
-      <Script id="lunacal-embed-init" strategy="afterInteractive">
+      <Script id="lunacal-embed-init" strategy="lazyOnload">
         {`
         (function(L,U,N){let p=(a,ar)=>a.q.push(ar),d=L.document;L.Lunacal=L.Lunacal||function(){let lun=L.Lunacal,ar=arguments;if(!lun.loaded){lun.ns = {};lun.q=lun.q||[];d.head.appendChild(d.createElement("script")).src=U;lun.loaded=!0}if(ar[0]===N){const api=function(){p(api, arguments)};const ns=ar[1];api.q=api.q||[];if(typeof ns==="string"){lun.ns[ns] = lun.ns[ns] || api;p(lun.ns[ns],ar);p(lun,["initNamespace",ns])}else p(lun,ar);return}p(lun,ar)};if(!L.Cal)L.Cal=L.Lunacal})(window,"https://app.lunacal.ai/embed/embed.js","init");Lunacal("init","multiple-durationssss111",{origin:"https://app.lunacal.ai"});
         Lunacal.config = Lunacal.config || { };
