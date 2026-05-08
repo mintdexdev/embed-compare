@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
@@ -7,14 +5,10 @@ export default function Home() {
       <div className="flex flex-col gap-1 ">
         <a href="/zcal-top" target="_blank" rel="noopener noreferrer"> zcal-top</a>
         <a href="/zcal-bottom" target="_blank" rel="noopener noreferrer"> zcal-bottom</a>
-        <a href="/lunacal-top-main-thread" target="_blank" rel="noopener noreferrer"> lunacal-top-main-thread</a>
-        <a href="/lunacal-top-different-thread" target="_blank" rel="noopener noreferrer"> lunacal-top-different-thread</a>
-        <a href="/lunacal-top-partytown" target="_blank" rel="noopener noreferrer"> lunacal-top-partytown</a>
-        <a href="/lunacal-async-defer" target="_blank" rel="noopener noreferrer"> lunacal-async-defer</a>
-        <a href="/lunacal-resource-hints" target="_blank" rel="noopener noreferrer"> lunacal-resource-hints</a>
-        <a href="/lunacal-lazy-scroll" target="_blank" rel="noopener noreferrer"> lunacal-lazy-scroll</a>
-        <a href="/lunacal-bottom" target="_blank" rel="noopener noreferrer"> lunacal-bottom</a>
-        <a href="/lunacal-bottom-lazy" target="_blank" rel="noopener noreferrer"> lunacal-bottom-lazy</a>
+        <a href="/lunacal-direct-iframe" target="_blank" rel="noopener noreferrer"> lunacal-direct-iframe</a>
+        <a href="/lunacal-click-to-load" target="_blank" rel="noopener noreferrer"> lunacal-click-to-load</a>
+        <a href="/lunacal-intersection-observer" target="_blank" rel="noopener noreferrer"> lunacal-intersection-observer</a>
+        <a href="/lunacal-idle-load" target="_blank" rel="noopener noreferrer"> lunacal-idle-load</a>
       </div>
     </div>
   );
