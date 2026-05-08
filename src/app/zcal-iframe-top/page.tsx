@@ -16,7 +16,8 @@ export default function Home() {
           width: 1096,
         }}
       />
-      <div className="h-[500vh] bg-blue-900" />
+            <div className="h-[500vh] bg-blue-900" >Test Text</div>
+
     </div>
   );
 }

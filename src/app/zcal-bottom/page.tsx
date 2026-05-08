@@ -4,7 +4,7 @@ import Script from "next/script";
 export default function Home() {
   return (
     <div>
-      <div className="h-[500vh] bg-blue-900" />
+      <div className="h-[500vh] bg-blue-900" >Test Text</div>
 
       <Script src="https://static.zcal.co/embed/v1/embed.js" strategy="afterInteractive" />
       <div className="zcal-inline-widget w-full">

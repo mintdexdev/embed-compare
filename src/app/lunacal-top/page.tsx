@@ -7,7 +7,8 @@ export default function Page() {
         id={LUNACAL_EMBED_ID}
         style={{ width: "100%", height: "700px", overflow: "auto" }}
       />
-      <div className="h-[500vh] bg-blue-900" />
+      <div className="h-[500vh] bg-blue-900" >Test Text</div>
+
 
       <script dangerouslySetInnerHTML={{ __html: lunacalInitScript }} />
     </main>

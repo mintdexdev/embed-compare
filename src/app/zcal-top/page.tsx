@@ -8,7 +8,8 @@ export default function Home() {
       <div className="zcal-inline-widget w-full">
         <a href="https://zcal.co/i/PI4LHzp-">Testing event - Schedule a meeting</a>
       </div>
-      <div className="h-[500vh] bg-blue-900" />
+      <div className="h-[500vh] bg-blue-900" >Test Text</div>
+
 
     </main>
   );

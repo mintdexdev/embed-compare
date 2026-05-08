@@ -34,7 +34,8 @@ export default function Page() {
 
   return (
     <main>
-      <div className="h-[500vh] bg-blue-900" />
+      <div className="h-[500vh] bg-blue-900" >Test Text</div>
+
       <div ref={sentinelRef} aria-hidden="true" />
       <div
         id={LUNACAL_EMBED_ID}
