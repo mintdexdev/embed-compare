@@ -14,16 +14,7 @@ export default function Page() {
   }
 
   return (
-    <main className="flex flex-col gap-6 p-8 max-w-3xl mx-auto">
-      <header>
-        <h1 className="text-2xl font-semibold">Click to load</h1>
-        <p className="text-zinc-600 dark:text-zinc-400">
-          The SDK script is injected only when the user clicks. Visitors who
-          never click pay 0ms of main-thread cost. Best ROI when conversion is
-          low.
-        </p>
-      </header>
-
+    <main >
       {!loaded ? (
         <button
           type="button"
