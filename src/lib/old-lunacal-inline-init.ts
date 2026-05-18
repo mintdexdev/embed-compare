@@ -1,12 +1,12 @@
-export const LUNACAL_EMBED_ID = "my-lunacal-inline-multiple-durationssss111";
+export const OLD_LUNACAL_INLINE_EMBED_ID = "my-lunacal-inline-multiple-durationssss111";
 
-export const lunacalInitScript = `
+export const oldLunacalInlineInitScript = `
 (function(L,U,N){let p=(a,ar)=>a.q.push(ar),d=L.document;L.Lunacal=L.Lunacal||function(){let lun=L.Lunacal,ar=arguments;if(!lun.loaded){lun.ns={};lun.q=lun.q||[];d.head.appendChild(d.createElement("script")).src=U;lun.loaded=!0}if(ar[0]===N){const api=function(){p(api,arguments)};const ns=ar[1];api.q=api.q||[];if(typeof ns==="string"){lun.ns[ns]=lun.ns[ns]||api;p(lun.ns[ns],ar);p(lun,["initNamespace",ns])}else p(lun,ar);return}p(lun,ar)};if(!L.Cal)L.Cal=L.Lunacal})(window,"https://app.lunacal.ai/embed/embed.js","init");Lunacal("init","multiple-durationssss111",{origin:"https://app.lunacal.ai"});
 Lunacal.config = Lunacal.config || {};
 Lunacal.config.forwardQueryParams = true;
 
 Lunacal.ns["multiple-durationssss111"]("inline", {
-  elementOrSelector:"#${LUNACAL_EMBED_ID}",
+  elementOrSelector:"#${OLD_LUNACAL_INLINE_EMBED_ID}",
   config: {"layout":""},
   calLink: "dex/multiple-durationssss111",
 });

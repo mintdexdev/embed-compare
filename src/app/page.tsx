@@ -3,13 +3,15 @@ export default function Home() {
     <main>
 
       <div className="flex flex-col gap-1">
-        <a href="/cal-inline-top" target="_blank" rel="noopener noreferrer"> cal-inline-top</a>
-        <a href="/cal-inline-bottom" target="_blank" rel="noopener noreferrer"> cal-inline-bottom</a>
- 
-        <a href="/lunacal-top" target="_blank" rel="noopener noreferrer"> lunacal-top</a>
-        <a href="/lunacal-click-to-load" target="_blank" rel="noopener noreferrer"> lunacal-click-to-load</a>
-        <a href="/lunacal-intersection-observer" target="_blank" rel="noopener noreferrer"> lunacal-intersection-observer</a>
-        <a href="/lunacal-lazyonload" target="_blank" rel="noopener noreferrer"> lunacal-lazyonload</a>
+
+        <a href="/lunacal-lazy-inline-top" target="_blank" rel="noopener noreferrer"> lunacal-lazy-inline-top</a>
+        <a href="/lunacal-lazy-inline-bottom" target="_blank" rel="noopener noreferrer"> lunacal-lazy-inline-bottom</a>
+        <a href="/lunacal-lazy-floating" target="_blank" rel="noopener noreferrer"> lunacal-lazy-floating</a>
+        <a href="/lunacal-lazy-popup" target="_blank" rel="noopener noreferrer"> lunacal-lazy-popup</a>
+
+        <a href="/old-lunacal-inline-bottom" target="_blank" rel="noopener noreferrer"> old-lunacal-inline-bottom</a>
+        <a href="/old-lunacal-floating" target="_blank" rel="noopener noreferrer"> old-lunacal-floating</a>
+        <a href="/old-lunacal-popup" target="_blank" rel="noopener noreferrer"> old-lunacal-popup</a>
       </div>
     </main>
   );
