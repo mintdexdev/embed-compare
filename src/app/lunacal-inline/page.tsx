@@ -1,5 +1,5 @@
 import Script from "next/script";
-import { OLD_LUNACAL_INLINE_EMBED_ID, oldLunacalInlineInitScript } from "@/lib/old-lunacal-inline-init";
+import { LUNACAL_INLINE_EMBED_ID, lunacalInlineInitScript } from "@/lib/lunacal-inline-init";
 
 export default function Page() {
   return (
@@ -7,12 +7,12 @@ export default function Page() {
       <div className="h-[500vh] bg-blue-900">Test Text</div>
 
       <div
-        id={OLD_LUNACAL_INLINE_EMBED_ID}
+        id={LUNACAL_INLINE_EMBED_ID}
         style={{ width: "100%", height: "100%", overflow: "scroll" }}
       />
 
       <Script id="old-lunacal-inline-init" strategy="lazyOnload">
-        {oldLunacalInlineInitScript}
+        {lunacalInlineInitScript}
       </Script>
     </main>
   );

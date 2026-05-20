@@ -1,5 +1,5 @@
 import Script from "next/script";
-import { oldLunacalFloatingInitScript } from "@/lib/old-lunacal-floating-init";
+import { lunacalFloatingInitScript } from "@/lib/lunacal-floating-init";
 
 export default function Page() {
   return (
@@ -7,7 +7,7 @@ export default function Page() {
       <div className="h-[500vh] bg-blue-900">Test Text</div>
 
       <Script id="old-lunacal-floating-init" strategy="lazyOnload">
-        {oldLunacalFloatingInitScript}
+        {lunacalFloatingInitScript}
       </Script>
     </main>
   );
