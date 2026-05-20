@@ -17,6 +17,9 @@ export default function Home() {
         <a href="/cal-floating" target="_blank" rel="noopener noreferrer"> cal-floating</a>
         <a href="/cal-popup" target="_blank" rel="noopener noreferrer"> cal-popup</a>
 
+        <a href="/zcal-inline" target="_blank" rel="noopener noreferrer"> zcal-inline</a>
+        <a href="/zcal-iframe" target="_blank" rel="noopener noreferrer"> zcal-iframe</a>
+
       </div>
     </main>
   );
