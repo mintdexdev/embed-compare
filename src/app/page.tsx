@@ -10,7 +10,13 @@ export default function Home() {
         <a href="/lunacal-lazy-inline" target="_blank" rel="noopener noreferrer"> lunacal-lazy-inline</a>
         <a href="/lunacal-lazy-floating" target="_blank" rel="noopener noreferrer"> lunacal-lazy-floating</a>
         <a href="/lunacal-lazy-popup" target="_blank" rel="noopener noreferrer"> lunacal-lazy-popup</a>
-        
+
+        <a href="/lunacal-intersection-inline" target="_blank" rel="noopener noreferrer"> lunacal-intersection-inline</a>
+
+        <a href="/cal-inline" target="_blank" rel="noopener noreferrer"> cal-inline</a>
+        <a href="/cal-floating" target="_blank" rel="noopener noreferrer"> cal-floating</a>
+        <a href="/cal-popup" target="_blank" rel="noopener noreferrer"> cal-popup</a>
+
       </div>
     </main>
   );
